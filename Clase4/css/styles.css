@@ -1,0 +1,23 @@
+body{
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+nav{
+    bottom: 2px solid cornflowerblue;
+}
+
+h2{
+    color:red
+}
+
+form{
+    border-radius: 5px;
+    border: 2px solid rgb(31,179,237);
+}
+#formulario{
+    font-size: 15px;
+}
+
+#artUno p{
+    color: green;
+}

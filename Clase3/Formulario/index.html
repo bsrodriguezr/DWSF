@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de inscripción Acámica</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h2>Formulario de inscripción Curso en Acámica</h2>
+            <form action="datos.html" method="GET">
+                <fieldset>
+                    <legend><h3>Datos personales:</h3></legend>
+                    <div>
+                        <label for="names">Nombres:</label>
+                        <input type="text" name="names" id="names" placeholder="Escriba sus nombres" required>
+                    </div>
+                    <div>
+                        <label for="lastNames">Apellidos:</label>
+                        <input type="text" name="lastName" id="lastNames" placeholder="Escriba sus apellidos" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Escriba su email" required>
+                    </div>
+                    <div>
+                        <p>Nacionalidad</p>
+                        <select name="country" id="country" required>
+                            <option value="col">Colombia</option>
+                            <option value="mex">México</option>
+                            <option value="arg">Argentina</option>
+                            <option value="pan">Panamá</option>
+                            <option value="br">Brasil</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend><h3>Carrera que quieres estudiar</h3></legend>
+                    <div>
+                        <p>¿A qué carrera deseas incribirte?</p>
+                        <label for="ux-ui">UX/UI</label>
+                        <input type="radio" name="carrera" id="ux-ui">
+                        <label for="data">Data Science</label>
+                        <input type="radio" name="carrera" id="data">
+                        <label for="dwfs">Desarrollo Web Full Stack</label>
+                        <input type="radio" name="carrera" id="dwfs">
+                        <label for="frontAvan">Front-End Avanzado</label>
+                        <input type="radio" name="carrera" id="frontAvan">
+                        <label for="Ux-UI">UX/UI</label>
+                        <input type="radio" name="carrera">
+                    </div>
+                    <div>
+                        <p>Modalidad</p>
+                        <label for="presencial">Presencial</label>
+                        <input type="radio" name="modalidad" id="presencial">
+                        <label for="virtual">Virtual</label>
+                        <input type="radio" name="modalidad" id="virtual">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend><h3>Datos adicionales:</h3></legend>
+                    <div>
+                        <p>¿Estás trabajando actualmente?</p>
+                        <label for="workYes">Si</label>
+                        <input type="radio" name="work" id="workYes">
+                        <label for="workNo">No</label>
+                        <input type="radio" name="work" id="workNo">
+                    </div>
+                    <div>
+                        <label for="telephone">Teléfono:</label>
+                        <input type="number" name="telephone" id="telephone" placeholder="Escribe número de contacto">
+                    </div>
+                    <div>
+                        <label for="description">Descripción personal:</label><br>
+                        <textarea name="description" id="description" cols="30" rows="30" placeholder="Escribe una breve descrpción de tí"></textarea>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend><h3>Envio de formulario:</h3></legend>
+                    <div>
+                        <input type="checkbox" name="terms" id="terms" required>
+                        <label for="termskYes">Aceptas términos y condiciones</label>
+                    </div>
+                    <div>
+                        <input type="reset" id="reset" name="reset" value="Reiniciar">
+                        <input type="submit" id="submit" name="submit">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>

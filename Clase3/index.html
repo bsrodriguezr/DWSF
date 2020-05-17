@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios Web</title>
+</head>
+<body>
+    <main>
+        <form action="datos.html" method="GET">
+            <div>
+                <label for="name">Nombre:</label>
+                <input id="name" type="text" name="Nombre" placeholder="Escriba nombre de usuario">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input id="email" type="email" name="email" placeholder="Escriba correo electronico">
+            </div>
+            <div>
+                <label for="country">Seleccione su nacionalidad:</label>
+                <select  id="country" name="country">
+                    <option value="col">Colombia</option>
+                    <option value="ar">Argentina</option>
+                    <option value="br">Brasil</option>
+                    <option value="mx">México</option>
+                    <option value="pan">Panamá</option>                
+                </select>
+            </div>
+            <div>
+                <label for="url">URL:</label>
+                <input id="url" type="url" name="url" placeholder="Escriba la pagina Web">
+            </div>
+            <div>
+                <label for="file">Archivo:</label>
+                <input id="file" type="file" name="file" placeholder="Seleccione un archivo">
+            </div>
+            <div>
+                <label for="password">Escriba contraseña:</label>
+                <input id="password" type="password" name="password" placeholder="Escriba contraseña">
+            </div>
+            <div>
+                <p>¿Tienes experiencia en programación?</p>
+                <label for="expYes">Si</label>
+                <input id="expYes" type="radio" name="exp" value="yes">
+                <label for="expNo">No</label>
+                <input id="expNo" type="radio" name="exp" value="no">
+            </div>
+            <div>
+                <label for="description">Descripcion de mi personalidad </label><br>
+                <textarea id="description" name="descrption" col="30" row="10"></textarea>
+            </div>
+            <div>
+                <input id="terms" type="checkbox" name="terms" required>
+                <label for="terms">Acepto términos y condiciones</label>
+            </div>
+            <div>
+                <input type="submit" id="submit" value="Enviar Formulario">
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>
