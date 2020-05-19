@@ -53,6 +53,10 @@ ul{
     font-size: 30px;
 }
 
+a{
+    color: white;
+}
+
 .imgMembers{
     box-sizing: border-box;
     width:30%;
@@ -88,6 +92,8 @@ ul{
 #mainTitle{
     font-size: 100px;
 }
+
+
 
 .font.p{
     text-align: justify;
