@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rammstein</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="res/rammstein.jpg" alt="Rammstein" id="rammstein">
+        <h1 id="mainTitle">Rammstein</h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2 class="font">Reseña</h2>
+                <p class="font">Rammstein es un grupo de industrial metal alemán formado en 1994. Su estilo musical incorpora elementos del industrial y la música electrónica. Son considerados parte del movimiento NDH en su país. Sus canciones se desarrollan casi exclusivamente en alemán. Han vendido alrededor de 20 millones de copias en todo el mundo.</p>
+                <p class="font">Se cree que el nombre Rammstein fue formado en 1994 por proletarios criados en Alemania del Este. Tomaron su nombre de la ciudad de Ramstein, en cuya base aérea ocurrió un accidente durante un espectáculo, tres aeronaves italianas colisionaron contra el público. Para transformar el nombre añadieron una ‘m’; de este modo surgió ‘Rammstein’ que literalmente significa Piedra rameante, o catapulta hecha de piedra.</p>
+                
+            </article>
+            <hr>
+            <article>
+                <div>
+                    <div id="integrantes">
+                        <h2>Integrantes</h2>
+                        <a href="https://es.wikipedia.org/wiki/Till_Lindemann"><img class="imgMembers" src="res/tillLindemann.jpg" alt="Till Lindemann" title="Till Lindemann: Voz" /></a>
+                        <a href="https://es.wikipedia.org/wiki/Richard_Z._Kruspe"><img class="imgMembers" src="res/richardKruzpe.jpg" alt="Richard Kruspe"  title="Richard Zven Kruspe: guitarra líder, coros"/></a>  
+                        <a href="https://es.wikipedia.org/wiki/Oliver_Riedel"><img class="imgMembers"  src="res/oliveRiedel.jfif" alt="Oliver Riedel" title="Oliver Riedel: bajo eléctrico "/></a>                  
+                        <a href="https://es.wikipedia.org/wiki/Christoph_Schneider"><img class="imgMembers"  src="res/christophSchneider.jpeg" alt="Christoph Schneider" title="Christoph Schneider: batería"/></a>
+                        <a href="https://es.wikipedia.org/wiki/Paul_Landers"><img class="imgMembers"  src="res/paulLanders.jpg" alt="Paul Landers" title="Paul Landers: guitarra rítmica, coros"/></a>   
+                        <a href="https://es.wikipedia.org/wiki/Christian_Lorenz"><img class="imgMembers"  src="res/christianLorenz.jpg" alt="Flake Lorenz" title="Flake Lorenz: teclado, sintetizador "/></a>
+                    </div>
+                    <div class="font" id="webSite">
+                        <h2><a href="https://www.rammstein.de/">Visita nuestro Sitio Web</a></h2>
+                        <iframe src="https://www.rammstein.de/" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <div id="video">
+                        <h2>Vídeo Musical</h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/af59U2BRRAU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div id="discografia">
+                        <h2>Discografía</h2>
+                        <ul id="discografiaol">
+                            <li>Herzeleid (1995)</li>
+                            <li>Sehnsucht (1997)</li>
+                            <li>Mutter (2001)</li>
+                            <li>Reise, Reise (2004)</li>
+                            <li>Rosenrot (2005)</li>
+                            <li>Liebe ist für alle da (2009)</li>
+                            <li>Rammstein (2019)</li>  
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <h2>Galería de imágenes</h2>
+                <img src="res/rammsteinAngel.jpg" alt="Rammstein Angel" />
+                <img src="res/rammsteinConcert.jpg" alt="Rammstein Concierto"/>
+                <img src="res/rammteinFire.jpg" alt="Rammstein Fuego" />
+            </article>         
+        </section>
+        <hr>
+        <section id="form">            
+            <form action="www.rammstein.com" method="GET">
+                <fieldset>
+                    <legend><h3>Contáctanos</h3></legend>
+                    <div>
+                        <label for="names">Nombres:</label>
+                        <input type="text" name="names" id="names" placeholder="Escriba sus nombres" required>
+                    </div>
+                    <div>
+                        <label for="lastNames">Apellidos:</label>
+                        <input type="text" name="lastName" id="lastNames" placeholder="Escriba sus apellidos" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Escriba su email" required>
+                    </div>
+                    <div>
+                        <p>Nacionalidad
+                        <select name="country" id="country" required>
+                            <option value="col">Colombia</option>
+                            <option value="mex">México</option>
+                            <option value="arg">Argentina</option>
+                            <option value="pan">Panamá</option>
+                            <option value="br">Brasil</option>
+                        </select>
+                        </p>
+                    </div>
+                    <div>
+                        <label for="comment">Déjanos tu mensaje</label>
+                        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+                    </div>
+                    <input type="submit" name="submit" id="submit" value="Enviar mensaje">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer id="footer">Copyright © Todos los derechos reservados</footer>
+</body>
+</html>

@@ -1,0 +1,94 @@
+header{
+    text-align: center;
+}
+
+body{
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    background-image: url("../res/fondBlack.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin: 10%;
+}
+
+
+#form{
+    text-align: center;
+    margin: 5px 35% 5px 35%;
+}
+
+img{
+    height:200px;
+    width: 32%;;
+    border-radius: 20px;
+}
+
+iframe{
+    height:400px;
+    width:100%;
+    border-radius: 20px;
+}
+
+footer{
+    text-align: center;
+}
+
+input, textarea{
+    border-radius: 5px;
+}
+
+label{
+    display: block;
+}
+
+div{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+ul{
+    font-size: 30px;
+}
+
+.imgMembers{
+    box-sizing: border-box;
+    width:30%;
+    margin:1%;
+    box-shadow: 2px 2px 10px #999;
+}
+
+#rammstein{
+    width: 70%;
+    height: 300px;
+}
+
+#integrantes,#video{
+    box-sizing: border-box;
+    width:50% ;
+    height: 500px;
+    margin:2% 1% 2% 1%;
+    float: left;
+}
+
+#webSite, #discografia{
+    box-sizing: border-box;
+    width: 40%;
+    height: 500px;
+    margin: 2%;
+    float: right;
+}
+
+#video{
+    text-align: center;
+}
+
+#mainTitle{
+    font-size: 100px;
+}
+
+.font.p{
+    text-align: justify;
+}
