@@ -1,0 +1,61 @@
+nav{
+    width: 100%;
+    height: 90px;
+    background-color: cornflowerblue;
+}
+
+main{
+    background-color: rgb(202, 202, 243);
+}
+
+footer{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+h2{
+    color: rgb(41, 41, 190);
+}
+
+h1{
+    color: rgb(131, 20, 20);
+}
+
+label{
+    display:block;
+}
+
+fieldset{
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.float-left{
+    float: left;
+    width: 45%
+}
+
+.float-right{
+    float: right;
+    width: 45%;
+}
+
+#post{
+    width: 100%;
+    height: 300px;
+}
+
+#logo{
+    width: 70px;
+    height: 70px;
+}
+
+#form{
+    text-align: center;
+}
+
+

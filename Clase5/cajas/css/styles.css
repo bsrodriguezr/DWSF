@@ -1,0 +1,51 @@
+main{
+    text-align: center;
+}
+
+p{
+    text-align: left;
+    color: white;
+    font-size: large;
+    margin: 5%;
+}
+
+#main{
+    width: 800px;
+    height: 800px;
+    background-color: #9191e7;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#main div{
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+}
+
+
+#boxLeftSup{
+    float: left;
+    background-color: #831818;
+
+}
+
+#boxRightSup{
+    float: right;
+    background-color: #32a01c;
+}
+
+#boxLeftInf{
+    position:absolute ;
+    background-color: #9cb412;
+    top:485px;
+    left: 332px;
+}
+
+#boxRightInf{
+    position: absolute;
+    background-color: #fa9272;
+    top: 650px;
+    left: 650px;
+}
