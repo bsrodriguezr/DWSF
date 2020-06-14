@@ -1,0 +1,13 @@
+.image{
+    width: 30%;
+    height: 500px;
+    display: inline-block;
+    text-align: 90%;
+    box-sizing: border-box;
+}
+
+img{
+    border-radius: 20%;
+    width: 90%;
+    height: 50%;
+}

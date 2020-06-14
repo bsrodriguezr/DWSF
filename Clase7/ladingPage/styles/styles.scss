@@ -1,0 +1,16 @@
+@import "header";
+@import "main";
+
+footer{
+    text-align: center;
+}
+
+.dark{
+    background-color: rgb(37, 37, 41);
+    color: white;
+}
+
+.light{
+    background-color: rgb(229, 238, 144);
+    color: black;
+}

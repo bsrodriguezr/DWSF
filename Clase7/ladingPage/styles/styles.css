@@ -1,0 +1,64 @@
+header {
+  text-align: center;
+}
+
+img {
+  height: 350px;
+  width: 50%;
+  border-radius: 5%;
+  -webkit-box-shadow: cornflowerblue;
+          box-shadow: cornflowerblue;
+}
+
+h1 {
+  color: #7788a8;
+  font-size: 30pt;
+}
+
+#theme {
+  float: right;
+}
+
+main {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  width: 70%;
+  display: inline-block;
+  font-size: 20pt;
+}
+
+label {
+  display: block;
+}
+
+input {
+  border-radius: 10%;
+}
+
+div {
+  text-align: center;
+  margin: 2%;
+}
+
+#registryInfo {
+  text-align: center;
+  margin: 5px 35% 5px 35%;
+}
+
+footer {
+  text-align: center;
+}
+
+.dark {
+  background-color: #252529;
+  color: white;
+}
+
+.light {
+  background-color: #e5ee90;
+  color: black;
+}
+/*# sourceMappingURL=styles.css.map */
